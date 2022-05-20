@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+<body>
+    <!-- ABOUT PAGE -->
+    <!-- TODO: Navbar here -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- TODO: Banner Image here-->
+    <img src="assets/images/banner.png" alt="Banner">
+    <main>
+        <!-- About page code here -->
+        <h1>About Us</h1>
+        <h2>Locations</h2>
+        <ul>
+            <li>Bronx, NY</li>
+            <li>East Orange, NJ</li>
+            <li>San Juan, PR</li>
+        </ul>
+        <h2>Origin Story</h2>
+        <img src="assets/images/about.jpg" alt="Bowls">
+        <p>This dream began in my hometown of Bronx, NY. Get down or lay down!</p>
+    </main>
+</body>
+</html> 
+  32  
+contact.html
+@@ -5,11 +5,35 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+
+</head>
+<body>
+    <!-- CONTACT PAGE -->
+    <!-- TODO: Navbar here -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- TODO: Banner Image here-->
+    <img src="assets/images/banner.png" alt="Banner">
+    <main>
+        <h2>Hours of Operation</h2>
+        <p>
+@@ -20,7 +44,13 @@ <h2>Hours of Operation</h2>
+        </p>
+        <h2>Contact Info</h2>
+        <p>
+            <strong>Phone Number:</strong> TBD
+            <strong><i class="fa fa-map-marker" aria-hidden="true"></i>Address:</strong> Bronx, NY
+        </p>
+        <p>
+            <strong><i class="fa fa-phone" aria-hidden="true"></i> Phone Number:</strong> 999-9999
+        </p>
+        <p>
+            <strong><i class="fa fa-envelope" aria-hidden="true"></i> Email:</strong> <a href="mailto:H-Thai-ML@fakeemail.com">H-Thai-ML mailto link</a>
+        </p>
+    </main>
+</body>
+  28  
+index.html
+@@ -9,10 +9,38 @@
+<body>
+    <!-- HOME PAGE -->
+    <!-- TODO: Navbar here -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- TODO: Banner Image here-->
+    <img src="assets/images/banner.png" alt="Banner">
+    <main>
+        <h1>H-Thai-ML</h1>
+        <!-- TODO: Home page code here-->
+        <H2>We won't deny even the most ridiculous request</H2>
+        <div class="service">
+            <h3>Dine-In</h3>
+        </div>
+        <div class="service">
+            <h3>Take Out</h3>
+        </div>
+        <div class="service">
+            <h3>Delivery</h3>
+        </div>
+        <img src="assets/images/shrimp-skewers.jpg" alt="Shrimp">
+    </main>
+</body>
+</html> 
+  198  
+menu.html
+@@ -5,54 +5,172 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+</head>
+<body>
+    <!-- MENU PAGE -->
+    <!-- TODO: Navbar here -->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- TODO: Banner Image here-->
+    <img src="assets/images/banner.png" alt="Banner">
+    <main>
+        <!-- Your job is to make the menu items in each section below a proper table! -->
+        Appetizers
+
+        Name Price
+        Chicken Satay $7.95
+        Fresh Rolls $6.95
+
+        Lunch
+
+        Name Price
+        Panang Curry $9.95
+        Red Curry $9.95
+        Yellow Curry $8.95
+        Tom Ka Soup $8.95
+        Tom Yum Soup $8.95
+
+        Dinner
+
+        Name Price
+        Pad Thai $10.95
+        Pad See Ew $10.49
+        Rad Nah $10.49
+
+        Dessert
+
+        Name Price
+        Black Sticky Rice Pudding $3.99
+        Mango Sticky Rice $5.99
+
+        Beverages
+
+        Name Price
+        Thai Iced Coffee $3.49
+        Thai Iced Tea $3.49
+        Unsweetened Iced Tea $2.49
+
+        Side Orders
+
+        Name Price
+        Jasmine rice $1.99
+        Brown rice $2.49
+        Cucumber Salad $2.99        
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chicken Satay</td>
+                    <td>$7.95</td>
+                </tr>
+                <tr>
+                    <td>Fresh Rolls</td>
+                    <td>$6.95</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Lunch</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <tr>
+                        <td>Panang Curry</td>
+                        <td>$9.95</td>
+                    </tr>
+                    <tr>
+                        <td>Red Curry</td>
+                        <td>$9.95</td>
+                    </tr>
+                    <tr>
+                        <td>Yellow Curry</td>
+                        <td>$8.95</td>
+                    </tr>
+                    <tr>
+                        <td>Tom Ka Soup</td>
+                        <td>$8.95</td>
+                    </tr>
+                    <tr>
+                        <td>Tom Yum Soup</td>
+                        <td>$8.95</td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Dinner</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pad Thai</td>
+                    <td>$10.95</td>
+                </tr>
+                <tr>
+                    <td>Pad See Ew</td>
+                    <td>$10.49</td>
+                </tr>
+                <tr>
+                    <td>Rad Nah</td>
+                    <td>$10.49</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Dessert</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Black Sticky Rice Pudding</td>
+                    <td>$3.99</td>
+                </tr>
+                <tr>
+                    <td>Mango Sticky Rice</td>
+                    <td>$5.99</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Beverages</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Thai Iced Coffee</td>
+                    <td>$3.49</td>
+                </tr>
+                <tr>
+                    <td>Thai Iced Tea</td>
+                    <td>$3.49</td>
+                </tr>
+                <tr>
+                    <td>Unsweetened Iced Tea</td>
+                    <td>$2.49</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Side Orders</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jasmine rice</td>
+                    <td>$1.99</td>
+                </tr>
+                <tr>
+                    <td>Brown rice</td>
+                    <td>$2.49</td>
+                </tr>
+                <tr>
+                    <td>Cucumber Salad</td>
+                    <td>$2.99</td>
+                </tr>
+            </tbody>
+        </table>       
+    </main>
+</body>
+</html>
